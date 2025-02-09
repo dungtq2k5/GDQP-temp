@@ -1,0 +1,15 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.info > h1 {
+  font-size: var(--text-big-size);
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
